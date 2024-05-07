@@ -6,7 +6,7 @@ import java.sql.Date;
  * @author Eduardo Alvarado.
  * */
 
-public class Credential {
+public class CredentialRequest {
 	/**
 	 * User's name
 	 * */
@@ -53,7 +53,7 @@ public class Credential {
 	 * @param username.
 	 * @param password.
 	 */
-	public Credential(String name, String lastname, Date birthday, String gender, String email, String username,
+	public CredentialRequest(String name, String lastname, Date birthday, String gender, String email, String username,
 			String password) {
 		super();
 		Name = name;
@@ -68,7 +68,7 @@ public class Credential {
 	/**
 	 * Empty constructor.
 	 */
-	public Credential() {
+	public CredentialRequest() {
 		
 	}
 
