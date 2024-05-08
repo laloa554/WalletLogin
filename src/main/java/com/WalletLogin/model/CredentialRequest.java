@@ -1,6 +1,6 @@
 package com.WalletLogin.model;
 
-import java.sql.Date;
+import java.time.LocalDateTime;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -33,7 +33,7 @@ public class CredentialRequest {
 	 * User's Birthday.
 	 * */
 	@NonNull
-	private Date Birthday;
+	private LocalDateTime Birthday;
 	
 	/**
 	 * User's Gender.
