@@ -49,7 +49,6 @@ public class CredentialWallet {
 	 * User's Gender.
 	 * */
 	@Column(name = "GENDER",length=50, nullable=false)
-	@Enumerated(EnumType.STRING)
 	private String Gender;
 	
 	/**

@@ -1,0 +1,20 @@
+server:
+  port: 8888
+  
+spring:
+  application:
+    name: WalletLogin
+  jpa:
+    hibernate:
+      ddl-auto: update
+  data:
+    jpa.repositories.enabled: true
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/Wallet
+    username: postgres
+    password: lalo
+  sql:
+    init:
+      continue-on-error: true
+      mode: always
